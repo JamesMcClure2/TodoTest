@@ -1,6 +1,8 @@
 # ToDoApp
 
-A full-stack ToDo list application built with Angular (frontend) and .NET Core (backend). It supports adding tasks and marking them done.
+A full-stack ToDo list application built with Angular (frontend) and .NET Core (backend).
+To use, run the backend either by opening ToDoApp.Api in visual studio and clicking run or open a terminal in the root folder and 'dotnet run --urls "https://localhost:7054"'
+Then open the front end ToDoApp in terminal and run 'ng serve'
 
 ## Tech Stack
 
@@ -20,4 +22,4 @@ If your frontend runs on a different port, update the URL in:
 ToDoApp.Api/Program.cs
 
 ## Important: Data Is Not Persisted
-This is a test software so the items are in temporary storage that will only be available until the backend stops running
+This is a test software so the items are in temporary storage that will only be available until the backend stops running.
