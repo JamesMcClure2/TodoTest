@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="list-item-cell list-item-title">
+    {{ item.title }}
+  </div>
+
+  <div class="list-item-cell list-item-box">
+    <input type="checkbox" [(ngModel)]="item.isDone" (change)="updateItem()" />
+  </div>
+
+  <div class="list-item-cell list-item-box">
+    <button class="delete-button" (click)="deleteItem()">Delete</button>
+  </div>
+</div>

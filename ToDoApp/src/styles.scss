@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.row {
+  display: flex;
+  flex-direction: row;
+  /*gap: 1rem;*/
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}

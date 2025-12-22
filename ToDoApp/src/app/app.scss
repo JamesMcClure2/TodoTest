@@ -1,0 +1,26 @@
+.list-section
+{
+    min-height: 500px;
+    background: #eee;
+    overflow-y: auto;
+}
+
+.small-margin{
+    margin: 12px;
+}
+
+.newitem-row, .newitem-row > input, .newitem-row > button{
+  font-size: 20px;
+}
+
+.newitem-input {
+  width: 300px;
+}
+
+.error-text{
+    color: red;
+}
+
+.delete-done-button{
+    font-size: 20px;
+}
