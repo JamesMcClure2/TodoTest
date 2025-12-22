@@ -8,7 +8,6 @@ A full-stack ToDo list application built with Angular (frontend) and .NET Core (
 |-----------------|-----------------|-------------------------|
 | Angular 17      | .NET 8 Web API  | RESTful API design      |
 | TypeScript      | C#              | Signal-based state mgmt |
-| RxJS Observables| Entity Framework| Error propagation       |
 
 ## Default URLs
 
@@ -16,4 +15,9 @@ A full-stack ToDo list application built with Angular (frontend) and .NET Core (
 - Angular Frontend: http://localhost:4200/
 
 If your backend runs on a different port, update the API URL in:
-`src/app/todo.service.ts`
+ToDoApp/src/app/todo.service.ts
+If your frontend runs on a different port, update the URL in:
+ToDoApp.Api/Program.cs
+
+## Important: Data Is Not Persisted
+This is a test software so the items are in temporary storage that will only be available until the backend stops running
