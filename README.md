@@ -4,10 +4,10 @@ A full-stack ToDo list application built with Angular (frontend) and .NET Core (
 
 ## Tech Stack
 
-| Frontend        | Backend         | Shared Concepts         |
-|-----------------|-----------------|-------------------------|
-| Angular 17      | .NET 8 Web API  | RESTful API design      |
-| TypeScript      | C#              | Signal-based state mgmt |
+| Frontend        | Backend         |
+|-----------------|-----------------|
+| Angular 17      | .NET 8 Web API  |
+| TypeScript      | C#              |
 
 ## Default URLs
 
