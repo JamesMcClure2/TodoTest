@@ -149,6 +149,7 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
+      
       <div>
         <h1>ToDo</h1>
       </div>
@@ -159,10 +160,6 @@
         <ng-container *ngFor="let todo of todos()">
           <app-todo-item [item]="todo" (update)="updateItem($event)" (delete)="deleteIndividualItem($event)"></app-todo-item>
         </ng-container>
-        <!--<div *ngFor="let todo of todos">
-          {-{ todo.title }} — {-{ todo.isDone }}
-        </div>-->
-
       </div>
       <div>
         <button class="delete-done-button" (click)="deleteAllDoneItems()">Delete all done</button>
