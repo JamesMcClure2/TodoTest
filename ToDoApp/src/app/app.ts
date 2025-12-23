@@ -18,7 +18,6 @@ import { TodoItem } from './todoItem';
 export class App {
   protected readonly title = signal('ToDoApp');
 
-  //todos: TodoItem[] = [];
   todos = signal<TodoItem[]>([]);
 
   addingItem: string = '';
